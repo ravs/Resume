@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[hidelinks]{hyperref}
+
+\name{Ravi Shankar} % Your name
+\address{315 1st Ave N \\ Seattle, WA} % Your address
+\address{(312) 402-5836 \\ ravs.sea@gmail.com \\ http://ravs.me} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+    \begin{rSubsection}{Amazon Web Services}{Commerce Platform}{July 2021 - present}{Senior Software Development Engineer}{Seattle, WA}
+    	\item Team leader of FactStore, a versioned data store, which powers Commerce Platform. Currently, working on designing FactStore V2 and drafting 3 to 5 year vision of the service.
+    \end{rSubsection}
+    
+    \begin{rSubsection}{Amazon Web Services}{Commerce Platform, CodeStar Notifications}{Jan 2019 - July 2021}{Software Development Engineer II}{Seattle, WA}
+    	\item Worked on launching VMware Cloud on AWS, a jointly engineered service that brings VMware enterprise software to AWS Cloud. Launched various micro-services to automate 75\% of the back-office processes to onboard a customer to both AWS and VMware, record their revenue and sales compensation, verify billing, apply discounts and finalize the payment.
+    	\item Worked on org-wide (Commerce Platform) data migration project to migrate customer's data in real-time with no service downtime and dynamically cutting over traffic from source to target.
+    	\item Launched AWS CodeStar Notifications for customers of AWS Developer Tools to subscribe for events in AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy and AWS CodePipeline. Launched AWS CodeStar Notifications on AWS Chatbot and Slack.
+	\end{rSubsection}
+
+	\begin{rSubsection}{Amazon.com, Inc.}{Alexa Notifications, Marketplace}{July 2015 - Jan 2019}{Software Development Engineer I \& II}{Seattle, WA \& Tempe, AZ }
+		\item Launched Notifications on Alexa devices for Kids. Rearchitected Alexa Notifications Platform to introduce user profiles in households. Worked on optimization of the platform such as 1.5M call reduction to downstream service.
+		
+		\item Migrated Feeds and Reports Platform's data storage from relational database to key-value data store with volume 5.3B requests weekly with zero downtime and without affecting a single request. Reduced Feeds and Reports Platform's infrastructure cost by \$491K YoY to meet Director level goal.
+		
+		\item Worked on migrating feed processor from AWS Simple Workflow to new distributed systems powered by DynamoDB streams and SQS queue. Launched template library to reduce efforts required by partner teams to onboard with feeds platform. A reduction of 87\% time spent in development from \~{}100 days to \~{}10 days.
+
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+	\begin{rSubsection}{Amazon.com, Inc.}{Prime Pantry}{May 2014 - Aug 2014}{Software Development Engineer Intern}{Seattle, WA}
+		\item Developed intuitive real-time order dashboard for Amazon Prime Pantry to display various metrics, such as bestsellers, regional order count, order-rate, Fulfillment Center distribution, Gross Merchandise Sales etc. Dashboard got recognized by Jeff Wilke, Senior Vice President, Consumables, Amazon.com.
+	\end{rSubsection}
+	
+	%------------------------------------------------
+	
+\end{rSection}
+
+%-------------------------
+% Professional Activities
+%-------------------------
+%\begin{sSection}{Professional Activities}
+%	\item Security Certifier: Certified 6 applications: 2 Alexa, 3 SellerCentral and 1 Wine Customization \cite{redreviews}.
+%	\item Mentored Security Certifier in Training, guihuas@.
+%	\item Organized and chair ASU Immersion Excursion at PHX11, March 2016 \cite{PhxAsuImmersion}.
+%	\item Represented Marketplace Org at SDE Flyback Event, November 2016.
+%	\item Presented PHX Tech Talk: ``All About That Red Review and Security Certifier", August 2016 \cite{PhxTechTalk}.
+%	\item Presented a talk at community driven external conferrence, Desert Code Camp, October 2016 \cite{DesertCodeCamp}.
+%	\item Actively involved in hiring SDE interns and SDEs.
+%	\item One of the 3 Scrum Masters in FRP team.
+%\end{sSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Arizona State University} \hfill {May 2015} \\ 
+{\em Master of Computer Science} \hfill {\em Tempe, AZ} \\
+GPA: 3.39
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%   COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{PROGRAMMING}
+	
+\textbf{Proficient}: Java \\
+\textbf{Familiar}: Python, Ruby, Kotlin, JavaScript, HTML, CSS       \\
+	
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Technical Strengths}
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
+%Protocols \& APIs & XML, JSON, SOAP, REST \\
+%Databases & MySQL, PostgreSQL, Microsoft SQL \\
+%Tools & SVN, Vim, Emacs
+%\end{tabular}
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+%\printbibliography
+
+\end{document}
